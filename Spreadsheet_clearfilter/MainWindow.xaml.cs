@@ -44,9 +44,12 @@ namespace Spreadsheet_clearfilter
 
         private void Spreadsheet_WorkbookLoaded(object sender, Syncfusion.UI.Xaml.Spreadsheet.Helpers.WorkbookLoadedEventArgs args)
         {
-            if (spreadsheet.ActiveSheet.AutoFilters.FilterRange != null)
+            foreach (var sheet in args.GridCollection)
             {
-                spreadsheet.ActiveSheet.AutoFilters.FilterRange = null;
+                if (sheet.Worksheet.AutoFilters.FilterRange != null)
+                {
+                    sheet.Worksheet.AutoFilters.FilterRange = null;
+                }
             }
         }
     }
