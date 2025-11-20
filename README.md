@@ -1,4 +1,4 @@
-# How to clear filter while importing a excel sheet into WPF Spreadsheet?
+# How to Clear Filter While Importing a Excel Sheet into WPF Spreadsheet?
 
 This repository contains the sample which shows the how to clear the filter while importing sheet into [WPF Spreadsheet](https://www.syncfusion.com/wpf-controls/spreadsheet) (SfSpreadsheet).
 
