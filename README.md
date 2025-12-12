@@ -1,6 +1,6 @@
 # How to Clear Filter While Importing a Excel Sheet into WPF Spreadsheet?
 
-This repository contains the sample which shows the how to clear the filter while importing sheet into [WPF Spreadsheet](https://www.syncfusion.com/wpf-controls/spreadsheet) (SfSpreadsheet).
+This repository contains the sample which shows the how to clear the filter while importing sheet into [WPF Spreadsheet](https://www.syncfusion.com/spreadsheet-editor-sdk/wpf-spreadsheet-editor) (SfSpreadsheet).
 
 `Spreadsheet` control loads the Excel workbook with filter’s if the filter applied before by user. You can clear the filter and load Excel workbook without filter by clearing the filter by setting [worksheet.AutoFilters.FilterRange](https://help.syncfusion.com/cr/wpf/Syncfusion.XlsIO.IAutoFilters.html#Syncfusion_XlsIO_IAutoFilters_FilterRange) property to null in [WorkbookLoaded](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.Spreadsheet.SfSpreadsheet.html#Syncfusion_UI_Xaml_Spreadsheet_SfSpreadsheet_WorkbookLoaded) event.
 
